@@ -116,3 +116,30 @@ body{
     transition: all 0.5s;
 
 }
+
+@media (max-width: 600px) {
+    body {
+        margin-top: 20px;
+    }
+
+    #quote {
+        font-size: 18px;
+    }
+
+    #author {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+        width: auto; 
+        height: auto;
+        margin: 5px; 
+    }
+    .container{
+        width: auto;
+        height: auto;
+    }
+}
+
